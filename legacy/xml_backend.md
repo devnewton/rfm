@@ -1,6 +1,6 @@
 # XML backend
 
-XML backend must conform to [xml_backend.xsd](/xml_backend.xsd).
+XML backend must conform to [xml_backend.xsd](./xml_backend.xsd).
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -53,7 +53,7 @@ Free text related to posting [moule](../moules.md). Usually nickname or browser 
 
 ## message
 
-Message body in [BML](/legacy_bml.md) format.
+Message body in [BML](./legacy_bml.md) format.
 
 ## login
 
