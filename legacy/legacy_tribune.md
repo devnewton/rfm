@@ -8,7 +8,7 @@ A legacy [tribune](../tribune.md) is a /customary standard/. It has a least a [b
 Most alive tribunes add features:
 
 - integrated coincoin
-- TSV backend
+- [TSV backend](./tsv_backend.md)
 - X-Post-ID
 - new posts returned on POST request
 - file upload

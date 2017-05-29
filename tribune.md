@@ -14,3 +14,9 @@ Two tribune generations exist:
 Every strings in every tribunes and subsystems MUST be valid UTF-8.
 
 [Bouchot](/bouchot.md) SHOULD be prepared to handle invalid UTF-8 strings.
+
+## Sanitization
+
+[Bouchot](/bouchot.md) and [Coincoin](/coincoin.md) MUST be prepared invalid tribune data.
+
+They MUST [sanitize](/slip.md) their inputs or die trying.

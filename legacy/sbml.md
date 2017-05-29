@@ -1,6 +1,6 @@
 # SBML
 
-Slipped Bouchot Markup Language is a variant of [BML](./legacy_bml.md) used in [XML backend](./xml_backend.md).
+[Slipped](/slip.md) Bouchot Markup Language is a variant of [BML](./legacy_bml.md) used in [XML backend](./xml_backend.md).
 
 SBML can be raw or encoded.
 
