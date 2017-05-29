@@ -26,7 +26,7 @@ Ducks can have the following character as head:
 oO0ô°øòó@
 ```
 
-[Coincoins](/coincoin.md) COULD use ducks in [hunt](/hunt.md).
+[Coincoins](/coincoin.md) MAY use ducks in [hunt](/hunt.md).
 
 ## [norloge](/norloge.md)
 
@@ -75,5 +75,5 @@ Reference a totoz name between /[:/ and /]/:
 [:good]
 ```
 
-[Coincoins](/coincoin.md) COULD display the referenced totoz image.
+[Coincoins](/coincoin.md) MAY display the referenced totoz image.
 

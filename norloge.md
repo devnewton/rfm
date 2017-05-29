@@ -21,7 +21,7 @@ MM/dd'T'HH:mm:ss
 
 [Coincoins](/coincoin.md) SHOULD find the missing year by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) COULD find the missing year by looking in the past.
+If not found in past, [Coincoins](/coincoin.md) MAY find the missing year by looking in the past.
 
 ```
 2017-06-29T13:45:01 Shit!
@@ -34,7 +34,7 @@ HH:mm:ss
 
 [Coincoins](/coincoin.md) SHOULD find the missing date by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) COULD find the missing date by looking in the past.
+If not found in past, [Coincoins](/coincoin.md) MAY find the missing date by looking in the past.
 
 ```
 2017-06-29T13:45:01 Shit!
@@ -47,7 +47,7 @@ HH:mm
 
 [Coincoins](/coincoin.md) SHOULD find the missing date and seconds by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) COULD find the missing date and seconds by looking in the past.
+If not found in past, [Coincoins](/coincoin.md) MAY find the missing date and seconds by looking in the past.
 
 ```
 2017-06-29T13:45:01 Shit!
