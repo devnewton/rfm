@@ -1,6 +1,6 @@
 # BML
 
-The [Bouchot](/bouchot.md) Markup Language is used to format [Posts](/post.md) body.
+[Moules] post using the [Bouchot](/bouchot.md) Markup Language to format [Posts](/post.md) body.
 
 ## bigorno
 
@@ -34,17 +34,12 @@ oO0ô°øòó@
 
 ## tags
 
-Tags are html like formatting markup.
+Tags are html like formatting markup:
+
+- without attribute
+- without space
 
 [Coincoins](/coincoin.md) SHOULD use tags to format [posts](/post.md).
-
-### a
-
-Same as [html5 a tag](https://www.w3schools.com/tags/tag_a.asp).
-
-This tag is optional for url.
-
-[Bouchots](/bouchot.md) and [Coincoin](/coincoin.md) SHOULD to url without a tag. 
 
 ### i
 
