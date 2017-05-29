@@ -6,3 +6,11 @@ Two tribune generations exist:
 
 - [legacy](/legacy/legacy_tribune.md)
 - [new](/new/new_tribune.md)
+
+# Miscellaneous
+
+## Character encoding
+
+Every strings in every tribunes and subsystems MUST be valid UTF-8.
+
+[Bouchot](/bouchot.md) SHOULD be prepared to handle invalid UTF-8 strings.
