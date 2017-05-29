@@ -53,9 +53,7 @@ Free text related to posting [moule](../moules.md). Usually nickname or browser 
 
 ## message
 
-Message body in [BML](./legacy_bml.md) format.
-
-### tags encoded
+Message body in [SBML](./sbml.md) format.
 
 ## login
 
