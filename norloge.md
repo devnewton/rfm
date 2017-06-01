@@ -73,7 +73,7 @@ They MUST be appended in the following order:
 
 ## Indice suffix
 
-Indice is a disambiguation hint if two or more posts share the same norloge.
+Indice is a disambiguation hint if two or more posts share the same datetime norloge.
 
 Assuming that:
 
