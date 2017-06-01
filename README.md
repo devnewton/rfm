@@ -8,7 +8,7 @@ Requests For Moules is collection of [tribune](/tribune.md) related standards.
 - [batavie](https://batavie.leguyader.eu/)
 - [cppfrug](https://chat.cppfrug.org/)
 - [devnewton](https://b3.bci.im/)
-- [linuxfr](https://linuxfr.org/board/)
+- [dlfp](https://linuxfr.org/board/)
 - [sveetch](http://sveetch.net/tribune)
 - [taab](https://taab.bci.im)
 
