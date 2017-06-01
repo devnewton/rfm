@@ -84,7 +84,7 @@ An indice is a number from 1 to 9 designing the referenced post.
 
 ### Ascii indice
 
-Indice SHOULD be written using Ascii characters prefixed by a [CIRCUMFLEX ACCENT](http://www.fileformat.info/info/unicode/char/005E/index.htm)
+Indice MAY be written using Ascii characters prefixed by a [CIRCUMFLEX ACCENT](http://www.fileformat.info/info/unicode/char/005E/index.htm)
 
 ```
 12:42:10 Dave  : Hello!
@@ -107,6 +107,8 @@ Indice MAY be written using Unicode characters: [¹](http://www.fileformat.info/
 ## [Bouchot](/bouchot.md) suffix
 
 Bouchot suffix MUST be used to reference a post on another bouchot instance.
+
+Bouchot suffix MAY be used to reference a post on same bouchot instance.
 
 [Bouchot instance alias](/bouchot_alias.md) is written after a [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm):
 
