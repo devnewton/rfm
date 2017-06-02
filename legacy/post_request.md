@@ -2,17 +2,18 @@
 
 [Bouchots](/bouchot.md) MUST expose an HTTP endpoint for posting messages.
 
-This endpoint SHOULD accepts HTTP POST request and consumes parameters
-in multipart/form-data format.
+This endpoint SHOULD accepts HTTP request using POST method.
 
-Alternative post endpoint methods/parameters/headers MAY be used and documented
-using [discovery](./discovery_sample.xml) file.
+## Request body
 
-## Request parameters
+Post endpoint SHOULD accept following fields in request body in multipart/form-data format.
 
 ### message
 
 Mandatory message body in [BML](./legacy_bml.md) format.
+
+[Bouchots](/bouchot.md) SHOULD expect error invalid BML, invalid encoding
+ and generally shit posting from [moules](/moules.md).
 
 ### lastId
 
@@ -37,3 +38,8 @@ with posts newer than lastId.
 # X-Post-Id
 
 Optional unique identifier of the post inserted by the request.
+
+## Alternatives
+
+Alternative post endpoint methods/parameters/body/headers MAY be used and documented
+using [discovery](./discovery_sample.xml) file.
