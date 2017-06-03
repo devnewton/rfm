@@ -1,6 +1,6 @@
 # rfm
 
-Requests For Moules is collection of [tribune](/tribune.md) related standards.
+Requests For Moules is collection of [tribune](./docs/tribune.md) related standards.
 
 ## Alive tribunes
 

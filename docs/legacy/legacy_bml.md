@@ -1,6 +1,6 @@
 # BML
 
-[Moules] post using the [Bouchot](/bouchot.md) Markup Language to format [Posts](/post.md) body.
+[Moules] post using the [Bouchot](../ontology/bouchot.md) Markup Language to format [Posts](../ontology/post.md) body.
 
 ## bigorno
 
@@ -10,7 +10,7 @@ Bigorno is way to hail someone by adding a [LESS-THAN-SIGN](http://www.fileforma
 Dave< how are you?
 ```
 
-[Coincoins](/coincoin.md) SHOULD hail user when a [post](/post.md) is received with his bigorno.
+[Coincoins](../ontology/coincoin.md) SHOULD hail user when a [post](../ontology/post.md) is received with his bigorno.
 
 ## duck
 

@@ -1,6 +1,6 @@
 # Norloge
 
-Norloges are references to [post](/post.md).
+Norloges are references to [post](./post.md).
 
 # Datetime based norloge
 
@@ -19,9 +19,9 @@ yyyy-MM-dd'T'HH:mm:ss
 
 MM/dd'T'HH:mm:ss
 
-[Coincoins](/coincoin.md) SHOULD find the missing year by looking in the past.
+[Coincoins](./coincoin.md) SHOULD find the missing year by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) MAY find the missing year by looking in the future.
+If not found in past, [Coincoins](./coincoin.md) MAY find the missing year by looking in the future.
 
 ```
 2017-06-29T13:45:01 Shit!
@@ -32,9 +32,9 @@ If not found in past, [Coincoins](/coincoin.md) MAY find the missing year by loo
 
 HH:mm:ss
 
-[Coincoins](/coincoin.md) SHOULD find the missing date by looking in the past.
+[Coincoins](./coincoin.md) SHOULD find the missing date by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) MAY find the missing date by looking in the past.
+If not found in past, [Coincoins](./coincoin.md) MAY find the missing date by looking in the past.
 
 ```
 2017-06-29T13:45:01 Shit!

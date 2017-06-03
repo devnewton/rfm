@@ -22,7 +22,7 @@ Date and time of post in yyyyMMddHHmmss format.
 
 ## info
 
-Free text related to posting [moule](../moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
+Free text related to posting [moule](../ontology/moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
 
 This field is stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
 

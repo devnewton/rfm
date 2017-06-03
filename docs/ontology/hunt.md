@@ -1,6 +1,6 @@
 # Hunt
 
-Hunt is a [tribune](/tribune.md) based game where [moules](/moules.md) can either:
+Hunt is a [tribune](./tribune.md) based game where [moules](./moules.md) can either:
 
 - launch a duck.
 - kill a duck.

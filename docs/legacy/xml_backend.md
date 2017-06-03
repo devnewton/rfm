@@ -29,11 +29,11 @@ board is the root element of xml backend.
 
 ### site attribute
 
-Root URL of the [tribune](../tribune.md).
+Root URL of the [tribune](../ontology/tribune.md).
 
 ### timezone attribute
 
-[Canonical ID](https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html#getAvailableIDs--) of board's [norloges](../norloge.md) timezone. Default to /Europe\/Paris/.
+[Canonical ID](https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html#getAvailableIDs--) of board's [norloges](../ontology/norloge.md) timezone. Default to /Europe\/Paris/.
 
 ## post element
 
