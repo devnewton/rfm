@@ -26,11 +26,11 @@ Ducks can have the following character as head:
 oO0ô°øòó@
 ```
 
-[Coincoins](/coincoin.md) MAY use ducks in [hunt](/hunt.md).
+[Coincoins](../ontology/coincoin.md) MAY use ducks in [hunt](../ontology/hunt.md).
 
-## [norloge](/norloge.md)
+## [norloge](../ontology/norloge.md)
 
-[Coincoins](/coincoin.md) SHOULD use norloges to display links or navigate between [posts](/post.md).
+[Coincoins](../ontology/coincoin.md) SHOULD use norloges to display links or navigate between [posts](../ontology/post.md).
 
 ## tags
 
@@ -39,7 +39,7 @@ Tags are html like formatting markup:
 - without attribute
 - without space
 
-[Coincoins](/coincoin.md) SHOULD use tags to format [posts](/post.md).
+[Coincoins](../ontology/coincoin.md) SHOULD use tags to format [posts](../ontology/post.md).
 
 ### i
 
@@ -65,9 +65,9 @@ Same as [html5 code tag](https://www.w3schools.com/tags/tag_code.asp).
 
 Other tag are forbidden.
 
-[Bouchots](/bouchot.md) and [Coincoin](/coincoin.md) MUST handle invalid tags. 
+[Bouchots](../ontology/bouchot.md) and [Coincoin](../ontology/coincoin.md) MUST handle invalid tags. 
 
-## [totoz](/totoz.md)
+## [totoz](../ontology/totoz.md)
 
 Reference a totoz name between /[:/ and /]/:
 
@@ -75,5 +75,5 @@ Reference a totoz name between /[:/ and /]/:
 [:good]
 ```
 
-[Coincoins](/coincoin.md) MAY display the referenced totoz image.
+[Coincoins](../ontology/coincoin.md) MAY display the referenced totoz image.
 

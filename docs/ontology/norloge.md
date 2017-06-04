@@ -45,9 +45,9 @@ If not found in past, [Coincoins](./coincoin.md) MAY find the missing date by lo
 
 HH:mm
 
-[Coincoins](/coincoin.md) SHOULD find the missing date and seconds by looking in the past.
+[Coincoins](./coincoin.md) SHOULD find the missing date and seconds by looking in the past.
 
-If not found in past, [Coincoins](/coincoin.md) MAY find the missing date and seconds by looking in the past.
+If not found in past, [Coincoins](./coincoin.md) MAY find the missing date and seconds by looking in the past.
 
 ```
 2017-06-29T13:45:01 Shit!
@@ -104,13 +104,13 @@ Indice MAY be written using Unicode characters: [¹](http://www.fileformat.info/
 12:42:21 Newton: 12:42:10² I am Newton.
 ```
 
-## [Bouchot](/bouchot.md) suffix
+## [Bouchot](./bouchot.md) suffix
 
 Bouchot suffix MUST be used to reference a post on another bouchot instance.
 
 Bouchot suffix MAY be used to reference a post on same bouchot instance.
 
-[Bouchot instance alias](/bouchot_alias.md) is written after a [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm):
+[Bouchot instance alias](./bouchot_alias.md) is written after a [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm):
 
 ```
 12:42:10 Dave  : Did you see this post 11:40:20@dlfp ?

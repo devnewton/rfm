@@ -1,6 +1,6 @@
 # post
 
-Post are messages posted by [moules](./moules.md) on [tribunes](./tribunes.md).
+Post are messages posted by [moules](./moules.md) on [tribunes](./tribune.md).
 
 A post carry following data:
 

@@ -37,7 +37,7 @@ Root URL of the [tribune](../ontology/tribune.md).
 
 ## post element
 
-Each post is a message posted by a [moule](../moules.md).
+Each post is a message posted by a [moule](../ontology/moules.md).
 
 ### id attribute
 
@@ -49,7 +49,7 @@ Date and time of post in yyyyMMddHHmmss format.
 
 ## info
 
-Free text related to posting [moule](../moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
+Free text related to posting [moule](../ontology/moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
 
 ## message
 

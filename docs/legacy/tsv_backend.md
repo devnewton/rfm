@@ -34,4 +34,4 @@ This field is stripped from any space character other than [SPACE](http://www.fi
 
 ## message
 
-Message body in [BML](./bml.md) stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
+Message body in [BML](./legacy_bml.md) stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
