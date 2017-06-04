@@ -110,7 +110,7 @@ Bouchot suffix MUST be used to reference a post on another bouchot instance.
 
 Bouchot suffix MAY be used to reference a post on same bouchot instance.
 
-[Bouchot instance alias](./bouchot_alias.md) is written after a [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm):
+[Bouchot instance alias](./bouchot.md#alias) is written after a [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm):
 
 ```
 12:42:10 Dave  : Did you see this post 11:40:20@dlfp ?
