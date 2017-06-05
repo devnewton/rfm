@@ -47,14 +47,14 @@ Technical post numeric identifier.
 
 Date and time of post in yyyyMMddHHmmss format.
 
-## info
+## info element
 
 Free text related to posting [moule](../ontology/moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
 
-## message
+## message element
 
 Message body in [SBML](./sbml.md) format.
 
-## login
+## login element
 
 Optional authenticated  user login.
