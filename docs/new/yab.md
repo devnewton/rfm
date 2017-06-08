@@ -18,10 +18,15 @@ The client (aka [coincoin](../ontology/coincoin.md)) is written in pure Javascri
 
 ## Authentication 
 
-Any visitor can post to the tribune but one can identify, to "sign" its posts, if he want to.
+Any visitor can post to the tribune but one can identify, to "sign" its posts, if he wants to do so.
 
-Yab uses a very simple cookie authentication : every visitor is given a unique visitor id, he can associate a username of its choice (and some other profile data).
+Yab uses a very simple cookie authentication : every visitor is given a unique visitor id, he can associate a username of its choice. This username will then be used as "login" field instead of the default username associated with the visitor id (which is simply a hash of it). When a username has been set for a particular visitor id, only this visitor will be able to change it.
 
-The visitor id isn’t stored on the server (only a hash), so losing the cookie means losing the related identity. In other terms, there is no way to recover it, using a password or some other method. It may be an evolution but it’s not a priority. If a user wants to use the same identity from different terminals he has to manually copy the cookie by himself.
+The visitor id isn’t stored on the server (only a hash), so losing the cookie means losing the related identity. In other terms, there is no way to recover it, using a password or some other method. It may be an future feature but it’s not a priority. In case a user wants to use the same identity from different terminals he has to manually copy the cookie by himself.
 
-By default the visitor ids assigned to clients by the server are 2048 random alphanumeric strings but there is no policy on what the client can send as its visitor id.
+By default visitor ids assigned to clients by the server are 2048 random alphanumeric strings, but there is no policy on what a client can send as its visitor id. As we’ll see in the next part, the only limitation that applies on messages is the total size of the post data (info+id+message).
+
+## Messages
+
+
+
