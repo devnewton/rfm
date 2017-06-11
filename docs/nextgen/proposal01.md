@@ -81,7 +81,7 @@ a JSON as response body with posts newer than *since*.
 
 # BML-NG
 
-Replace [legacy BML](../legacy_bml.md) with a well defined and KISS markup
+Replace [legacy BML](../legacy/legacy_bml.md) with a well defined and KISS markup
 language.
 
 Goals:
