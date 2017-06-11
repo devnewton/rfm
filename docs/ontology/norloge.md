@@ -6,6 +6,15 @@ Norloges are references to [post](./post.md).
 
 Reference norloge by time.
 
+## Full ISO
+
+YYYY-MM-DDTHH:mm:ss.sss
+
+```
+2017-06-29T13:45:01.421 Shit!
+2017-06-29T13:45:02.666 What do you mean by 2017-06-29T13:45:01.421 ?
+```
+
 ## ISO
 
 yyyy-MM-dd'T'HH:mm:ss
