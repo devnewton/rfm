@@ -1,4 +1,4 @@
-# Proposal01
+# Proposal01: jasoncoin
 
 # Norloges
 
