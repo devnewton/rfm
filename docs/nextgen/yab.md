@@ -62,9 +62,18 @@ here coincoin’s developpers will recognize a standard post. We have the follow
 
 Of course the server would immediatly send back a "Post" message again with this post it just received, as it’s new (the post id is higher than last id).
 
-There are other kind of messages but those are the core ones.
+## References
 
-# Références
+References are specially interpreted words in the post content, the posters (ie: users) can use them to indicate which message they’re replying to.
 
-    Horloge '(@[0-9]{1,16})'
-    User    '(@[A-zÀ-ÿ][A-zÀ-ÿ0-9_-]{1,32})'
+It’s strongly recommended to use them everytime you reply to someone or more generally make reference to a particular post.
+
+There are two reference types in Yab : post reference and user reference.
+
+ - Post reference: matching the regex '@[0-9]{1,16}'
+
+ - User reference : matching the regex '@[A-zÀ-ÿ][A-zÀ-ÿ0-9_-]{1,32}'
+
+To make a reference, just click on a username (for username ref.) or on a clock (for post ref.). It will be inserted in the post input field, at the cursor location.
+
+
