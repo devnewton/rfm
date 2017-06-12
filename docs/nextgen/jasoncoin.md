@@ -1,4 +1,6 @@
-# Proposal01: jasoncoin
+# jasoncoin
+
+JSON based simple tribune like protocol.
 
 # Norloges
 
@@ -143,7 +145,7 @@ _underline_
 
 ```
 
-[Coincoins](../ontology/coincoin.md) SHOULD use tags to format [posts](../ontology/post.md):
+[Coincoins](../ontology/coincoin.md) SHOULD use these to format [posts](../ontology/post.md):
 
 *emphasis*
 
