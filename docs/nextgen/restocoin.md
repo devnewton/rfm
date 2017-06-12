@@ -29,7 +29,7 @@ a JSON as response body with latest posts (newer than *since* if set).
             "msg": "plop",
             "from": "dave"
             "at": "2017-06-29T13:45:02.666"
-            "rel": "/tribune/post/12345678"
+            "href": "/tribune/post/12345678"
         }
     ]
 }
