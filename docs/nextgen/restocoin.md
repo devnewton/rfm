@@ -8,7 +8,7 @@ RESTful tribune like protocol.
 
 This endpoint MUST accepts HTTP request using GET method.
 
-Endpoint path MUST be `/tribune/post`:
+Endpoint path MUST end with `/post`:
 
 ## Query string parameters
 
@@ -29,7 +29,7 @@ a JSON as response body with latest posts (newer than *since* if set).
             "msg": "plop",
             "from": "dave"
             "at": "2017-06-29T13:45:02.666"
-            "href": "/tribune/post/12345678"
+            "href": "/post/12345678"
         }
     ]
 }
@@ -41,7 +41,7 @@ a JSON as response body with latest posts (newer than *since* if set).
 
 This endpoint MUST accepts HTTP request using POST method.
 
-Endpoint path MUST be `/tribune/post`:
+Endpoint path MUST end with `/post`:
 
 ## Request body
 
@@ -92,40 +92,43 @@ Goals:
 ## bigorno
 
 Bigorno is way to hail someone prefix his nickname
-with markdown like link relative to tribune base URL with 
-/tribune/moule/${mouleId} as path fragment:
+with markdown like link ending with
+/moule/${mouleId} path:
 ```
-[Dave](/tribune/moule/devnewton) how are you?
+[Dave](/moule/devnewton) how are you?
 ```
 
 [Coincoins](../ontology/coincoin.md) SHOULD hail user when a [post](../ontology/post.md) is received with his bigorno.
 
 ## duck
 
-User can post an ascii art left or right ducks with markdown like link
-relative to tribune base URL with 
-/tribune/duck/${duckId} as path fragment:
+User can post an ascii art left or right ducks:
 
 ```
-[\_o<](/tribune/duck/${duckId})
+\_o< \_o<   >o_/
 ```
 
-[Coincoins](../ontology/coincoin.md) MAY kill ducks in [hunt](../ontology/hunt.md)
-with a GET request on /tribune/duck/${duckId}/pan.
+Ducks can have the following character as head:
+
+```
+oO0ô°øòó@
+```
+
+[Coincoins](../ontology/coincoin.md) MAY use ducks in [hunt](../ontology/hunt.md).
 
 ## [norloge](../ontology/norloge.md)
 
-Restocoin use markdown-link-like norloge relative to tribune base URL with 
-/tribune/post/${postId} as path fragment:
+Restocoin use markdown-link-like norloge ending with
+/post/${postId} path:
 
 ```
-[10:12:42](/tribune/post/123456780) plop
+[10:12:42](/post/123456780) plop
 ```
 
-Absolute URL is used for cross bouchot posting:
+Absolute URL MUST be used for cross bouchot posting:
 
 ```
-[10:12:42](https://hadoken.free.fr/tribune/post/123456780) plop
+[10:12:42](https://hadoken.free.fr/post/123456780) plop
 ```
 
 ## Formatting
@@ -160,11 +163,10 @@ _underline_
 ## [totoz](../ontology/totoz.md)
 
 Reference a totoz with markdown like links
-relative to tribune base URL with 
-/tribune/totoz/${totozId} as path fragment:
+ending with /totoz/${totozId} path:
 
 ```
-[good](/tribune/totoz/good)
+[good](/totoz/good)
 ```
 
 [Coincoins](../ontology/coincoin.md) MAY display the referenced totoz image.
