@@ -46,14 +46,14 @@ yes, it just sends the cookie value.
 
 If it’s the first client connection its 'last id' value is 0, so the server will send all posts it has and update 'last id' to the id of the last post sent. "Post" messages look like this:
 
-↓    `P:14^@20170608194433^@Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36^@d6bed91c9c95477d007b1c95df01f629023b6b4248241e09200b7e8e558ff27b^@plop`
+↓    `P:14^@20170608194433^@Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.96 Safari/537.36^@V6bed91c9c95477d007b1c95df01f629023b6b4248241e09200b7e8e558ff27b^@plop`
 
 here coincoin’s developpers will recognize a standard post. We have the following fields:
 
  1. ID is 14 (this is an integer primary key)
  2. Time of the post is 20170608194433 (this is the historical "norloge" _(not a typo)_ format, a very convenient time representation, which combines facility to parse with facility for a human to read it)
  3. Commonly referred as "info", it’s by tradition filled with the [UA string](https://en.wikipedia.org/wiki/User_agent) of the client
- 4. The "login" field. Here we can see this post was sent by an anonymous visitor because it’s a hash (registred usernames may not be longer than 32 characters…). If the post would have been posted by an authenticated user we would find its username in this field.
+ 4. The "login" field. Here we can see this post was probably sent by an anonymous visitor because it’s look like a hash and start with a 'V'… If the post would have been posted by an authenticated user we would find its username in this field.
  5. The actual message
  
  When a client sends a post it sends this kind of message, the "New" message:
