@@ -21,9 +21,6 @@ Fields MUST not contains the following forbidden characters:
 [Bouchots](../ontology/bouchot.md) SHOULD replace forbidden characters by
 [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
 
-[Bouchots](../ontology/bouchot.md) MAY strip or replace non printable characters
-by [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
-
 ## id
 
 Technical post numeric identifier.
