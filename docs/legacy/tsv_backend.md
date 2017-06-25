@@ -12,6 +12,18 @@ Each line looks like:
 ${id}\t${time}\t${info}\t${login}\t${message}\n
 ```
 
+Fields MUST not contains the following forbidden characters:
+
+- [CHARACTER TABULATION](http://www.fileformat.info/info/unicode/char/0009/index.htm)
+- [CARRIAGE RETURN](http://www.fileformat.info/info/unicode/char/000D/index.htm)
+- [LINE FEED](http://www.fileformat.info/info/unicode/char/000A/index.htm)
+
+[Bouchots](../ontology/bouchot.md) SHOULD replace forbidden characters by
+[SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
+
+[Bouchots](../ontology/bouchot.md) MAY strip or replace non printable characters
+by [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
+
 ## id
 
 Technical post numeric identifier.
@@ -24,14 +36,10 @@ Date and time of post in yyyyMMddHHmmss format.
 
 Free text related to posting [moule](../ontology/moules.md). Usually nickname or browser [User Agent](https://en.wikipedia.org/wiki/User_agent).
 
-This field is stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
-
 ## login
 
 Optional authenticated  user login.
 
-This field is stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
-
 ## message
 
-Message body in [BML](./legacy_bml.md) stripped from any space character other than [SPACE](http://www.fileformat.info/info/unicode/char/0020/index.htm).
+Message body in [BML](./legacy_bml.md).
