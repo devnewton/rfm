@@ -41,6 +41,10 @@ Tags are html like formatting markup:
 
 [Coincoins](../ontology/coincoin.md) SHOULD use tags to format [posts](../ontology/post.md).
 
+### b
+
+Same as [html5 i tag](https://www.w3schools.com/tags/tag_b.asp).
+
 ### i
 
 Same as [html5 i tag](https://www.w3schools.com/tags/tag_i.asp).
