@@ -8,7 +8,7 @@ Reference norloge by time.
 
 ## Full ISO
 
-YYYY-MM-DDTHH:mm:ss.sss
+YYYY-MM-DD'T'HH:mm:ss.sss
 
 ```
 2017-06-29T13:45:01.421 Shit!
@@ -24,9 +24,18 @@ yyyy-MM-dd'T'HH:mm:ss
 2017-06-29T13:45:02 What do you mean by 2017-06-29T13:45:01 ?
 ```
 
+## full linuxfr
+
+yyyy-MM-dd' 'HH:mm:ss
+
+```
+2017-06-29T13:45:01 Shit!
+2017-06-29T13:45:02 What do you mean by 2017-06-29 13:45:01 ?
+```
+
 ## long
 
-MM/dd'T'HH:mm:ss
+MM/dd'#'HH:mm:ss
 
 [Coincoins](./coincoin.md) SHOULD find the missing year by looking in the past.
 
