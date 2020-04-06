@@ -73,7 +73,7 @@ Other tag are forbidden.
 
 ## [totoz](../ontology/totoz.md)
 
-Reference a totoz name between *[:* and *]* :
+Reference a totoz name between **[:** and **]** :
 
 ```
 [:good]
