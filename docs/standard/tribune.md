@@ -2,10 +2,11 @@
 
 A tribune is web chat system used by [moules](./moules.md).
 
-Two tribune generations exist:
+Three kind of tribune exist:
 
-- [legacy](../legacy/legacy_tribune.md)
-- [nextgen](../nextgen/index.md)
+- [standard](./standard_tribune.md)
+- [exotic](../other/exotic/index.md)
+- [nextgen](../other/nextgen/index.md)
 
 # Miscellaneous
 

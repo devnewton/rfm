@@ -2,10 +2,10 @@
 <site baseurl="https://b3.bci.im" name="jb3" title="jb3" version="666">
     <board name="devnewton" title="devnewton"> 
         <backend
-            path="/legacy/xml?room=devnewton" public="true" refresh="10"
+            path="/standard/xml?room=devnewton" public="true" refresh="10"
             tags_encoded="true" /> 
         <post anonymous="true" max_length="512"
-              method="post" path="/legacy/post?room=devnewton"> 
+              method="post" path="/standard/post?room=devnewton"> 
             <field
                 name="message">$m</field>
         </post>

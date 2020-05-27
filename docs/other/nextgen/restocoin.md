@@ -4,7 +4,7 @@ RESTful tribune like protocol.
 
 # Get request
 
-[Bouchots](../ontology/bouchot.md) MUST expose an HTTP endpoint for messages retrieving.
+[Bouchots](../../standard/bouchot.md) MUST expose an HTTP endpoint for messages retrieving.
 
 This endpoint MUST accepts HTTP request using GET method.
 
@@ -14,12 +14,12 @@ Endpoint path MUST end with `/post`:
 
 ### since
 
-Optional last known by [coincoin](../ontology/coincoin.md) post
-[norloge](../ontology/norloge.md) in **Full ISO** format.
+Optional last known by [coincoin](../../standard/coincoin.md) post
+[norloge](../../standard/norloge.md) in **Full ISO** format.
 
 ### Response body
 
-[Bouchots](../ontology/bouchot.md) SHOULD produce
+[Bouchots](../../standard/bouchot.md) SHOULD produce
 a JSON as response body with latest posts (newer than *since* if set).
 
 ```
@@ -37,7 +37,7 @@ a JSON as response body with latest posts (newer than *since* if set).
 
 # Post request
 
-[Bouchots](../ontology/bouchot.md) MUST expose an HTTP endpoint for posting messages.
+[Bouchots](../../standard/bouchot.md) MUST expose an HTTP endpoint for posting messages.
 
 This endpoint MUST accepts HTTP request using POST method.
 
@@ -59,28 +59,28 @@ Post endpoint MUST accept following request body in JSON format:
 
 Mandatory message body in BML-ROC format.
 
-[Bouchots](../ontology/bouchot.md) SHOULD expect error invalid BML-ROC, invalid encoding
- and generally shit posting from [moules](../ontology/moules.md).
+[Bouchots](../../standard/bouchot.md) SHOULD expect error invalid BML-ROC, invalid encoding
+ and generally shit posting from [moules](../../standard/moules.md).
 
 ### from
 
-[Moule](../ontology/moules.md)'s nickname.
+[Moule](../../standard/moules.md)'s nickname.
 
 ### since
 
-Optional last known by [coincoin](../ontology/coincoin.md) post
-[norloge](../ontology/norloge.md) in **Full ISO** format.
+Optional last known by [coincoin](../../standard/coincoin.md) post
+[norloge](../../standard/norloge.md) in **Full ISO** format.
 
 ## Response
 
 ### Response body
 
-If *since* parameters is set, [Bouchots](../ontology/bouchot.md) SHOULD produce
+If *since* parameters is set, [Bouchots](../../standard/bouchot.md) SHOULD produce
 a JSON as response body with posts newer than *since*.
 
 # BML-ROC
 
-Replace [legacy BML](../legacy/legacy_bml.md) with a well defined and RESTful markup
+Replace [standard BML](../../standard/standard_bml.md) with a well defined and RESTful markup
 language.
 
 Goals:
@@ -98,7 +98,7 @@ with markdown like link ending with
 [Dave](/moule/devnewton) how are you?
 ```
 
-[Coincoins](../ontology/coincoin.md) SHOULD hail user when a [post](../ontology/post.md) is received with his bigorno.
+[Coincoins](../../standard/coincoin.md) SHOULD hail user when a [post](../../standard/post.md) is received with his bigorno.
 
 ## duck
 
@@ -114,9 +114,9 @@ Ducks can have the following character as head:
 oO0ô°øòó@
 ```
 
-[Coincoins](../ontology/coincoin.md) MAY use ducks in [hunt](../ontology/hunt.md).
+[Coincoins](../../standard/coincoin.md) MAY use ducks in [hunt](../../standard/hunt.md).
 
-## [norloge](../ontology/norloge.md)
+## [norloge](../../standard/norloge.md)
 
 Restocoin use markdown-link-like norloge ending with
 /post/${postId} path:
@@ -148,7 +148,7 @@ _underline_
 
 ```
 
-[Coincoins](../ontology/coincoin.md) SHOULD use these to format [posts](../ontology/post.md):
+[Coincoins](../../standard/coincoin.md) SHOULD use these to format [posts](../../standard/post.md):
 
 *emphasis*
 
@@ -160,7 +160,7 @@ _underline_
 
 `printf();`
 
-## [totoz](../ontology/totoz.md)
+## [totoz](../../standard/totoz.md)
 
 Reference a totoz with markdown like links
 ending with /totoz/${totozId} path:
@@ -169,4 +169,4 @@ ending with /totoz/${totozId} path:
 [good](/totoz/good)
 ```
 
-[Coincoins](../ontology/coincoin.md) MAY display the referenced totoz image.
+[Coincoins](../../standard/coincoin.md) MAY display the referenced totoz image.

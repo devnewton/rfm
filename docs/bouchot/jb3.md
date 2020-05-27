@@ -2,8 +2,8 @@
 
 jb3 claims itself as _a KISS tribune powered by java, spring boot and mongodb_.
 
-It is a [bouchot](../ontology/bouchot.md) but also
- a [coincoin](../ontology/coincoin.md), an [archiver](../ontology/archiver.md),
+It is a [bouchot](../standard/bouchot.md) but also
+ a [coincoin](../standard/coincoin.md), an [archiver](../standard/archiver.md),
 a visio conference software, a collection of bots...
 
 ## Links
