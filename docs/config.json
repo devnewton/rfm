@@ -1,0 +1,12 @@
+{
+  "title": "RFM",
+  "tagline": "Requests for moules",
+  "author": "Dave Newton",
+  "format": "html",
+  "html": {
+    "repo": "devnewton/rfm",
+    "auto_toc": false,
+    "auto_landing": false,
+    "search": true
+  }
+}

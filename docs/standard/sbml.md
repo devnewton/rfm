@@ -14,7 +14,7 @@ Raw SBML apply the following transformations to BML.
 
 ### invalid tags
 
-[Bouchot](.//bouchot.md) MAY strip or escape (using HTML entities) non BML tags .
+[Bouchot](./bouchot.md) MAY strip or escape (using HTML entities) non BML tags .
 
 ### html entities
 
