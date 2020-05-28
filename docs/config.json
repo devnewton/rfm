@@ -5,6 +5,7 @@
   "format": "html",
   "html": {
     "repo": "devnewton/rfm",
+    "edit_on_github": "devnewton/rfm/blob/master/docs",
     "auto_toc": false,
     "auto_landing": false,
     "search": true

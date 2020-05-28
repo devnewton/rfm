@@ -1,13 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<site baseurl="https://b3.bci.im" name="jb3" title="jb3" version="666">
+<site baseurl="https://jb3.devnewton.fr" name="jb3" title="jb3" version="666">
     <board name="devnewton" title="devnewton"> 
-        <backend
-            path="/01_standard/xml?room=devnewton" public="true" refresh="10"
-            tags_encoded="true" /> 
-        <post anonymous="true" max_length="512"
-              method="post" path="/01_standard/post?room=devnewton"> 
-            <field
-                name="message">$m</field>
+        <backend path="/legacy/xml?room=devnewton" public="true" refresh="10" tags_encoded="true" /> 
+        <post anonymous="true" max_length="512" method="post" path="/legacy/post?room=devnewton"> 
+            <field name="message">$m</field>
         </post>
     </board>
 </site>
