@@ -2,11 +2,16 @@
 
 A tribune is web chat system used by [moules](./moules.md).
 
-Three kind of tribune exist:
+It has a least a [bouchot](./bouchot.md):
 
-- [standard](./standard_tribune.md)
-- [exotic](../other/exotic/index.md)
-- [nextgen](../other/nextgen/index.md)
+- an [XML backend](xml_backend.md) and/or [TSV backend](./tsv_backend.md) accessible through HTTP request.
+- an [HTTP POST](./post_request.md) support for posting messages.
+
+Most alive tribunes add features:
+
+- integrated coincoin
+- file upload
+- authentification
 
 # Miscellaneous
 

@@ -1,4 +1,4 @@
-# exotic tribune
+# Exotic
 
 ## muckl tribune
 

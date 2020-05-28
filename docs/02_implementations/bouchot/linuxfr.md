@@ -7,7 +7,7 @@ A basic Ruby tribune with anecdotal site/forum features.
 linuxfr does not respect freedom of post:
 
 - authentification is mandatory.
-- [coincoins][../standard/coincoin.md] should use an Oauth2 API to
+- [coincoins][../../01_standard/coincoin.md] should use an Oauth2 API to
 post messages.
 
 ## Links

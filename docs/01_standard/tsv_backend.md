@@ -39,4 +39,4 @@ Optional authenticated  user login.
 
 ## message
 
-Message body in [BML](./standard_bml.md).
+Message body in [BML](./bml.md).

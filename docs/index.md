@@ -1,6 +1,14 @@
 # rfm
 
-Requests For Moules is collection of [tribune](./standard/tribune.md) related standards.
+Requests For Moules is collection of tribune related documentations.
+
+A tribune is web chat system used by [moules](./01_standard/moules.md).
+
+Three kind of tribunes exist:
+
+- [standard](./01_standard/tribune.md)
+- [exotic](../03_non_standard/exotic/index.md)
+- [nextgen](../03_non_standard/nextgen/index.md)
 
 ## Alive tribunes
 

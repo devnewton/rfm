@@ -10,7 +10,7 @@ Post endpoint SHOULD accept following fields in request body in multipart/form-d
 
 ### message
 
-Mandatory message body in [BML](./standard_bml.md) format.
+Mandatory message body in [BML](./bml.md) format.
 
 [Bouchots](./bouchot.md) SHOULD expect error invalid BML, invalid encoding
  and generally shit posting from [moules](./moules.md).

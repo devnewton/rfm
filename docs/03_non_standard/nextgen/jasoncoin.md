@@ -4,11 +4,11 @@ JSON based simple tribune like protocol.
 
 # Norloges
 
-ONLY **Full ISO** [norloge](../../standard/norloge.md) in Paris timezone MUST be used.
+ONLY **Full ISO** [norloge](../../01_standard/norloge.md) in Paris timezone MUST be used.
 
 # Get request
 
-[Bouchots](../../standard/bouchot.md) MUST expose an HTTP endpoint for messages retrieving.
+[Bouchots](../../01_standard/bouchot.md) MUST expose an HTTP endpoint for messages retrieving.
 
 This endpoint MUST accepts HTTP request using GET method.
 
@@ -18,12 +18,12 @@ Endpoint path MUST be `/tribune/get`:
 
 ### since
 
-Optional last known by [coincoin](../../standard/coincoin.md) post
-[norloge](../../standard/norloge.md) in **Full ISO** format.
+Optional last known by [coincoin](../../01_standard/coincoin.md) post
+[norloge](../../01_standard/norloge.md) in **Full ISO** format.
 
 ### Response body
 
-[Bouchots](../../standard/bouchot.md) SHOULD produce
+[Bouchots](../../01_standard/bouchot.md) SHOULD produce
 a JSON as response body with latest posts (newer than *since* if set).
 
 ```
@@ -40,7 +40,7 @@ a JSON as response body with latest posts (newer than *since* if set).
 
 # Post request
 
-[Bouchots](../../standard/bouchot.md) MUST expose an HTTP endpoint for posting messages.
+[Bouchots](../../01_standard/bouchot.md) MUST expose an HTTP endpoint for posting messages.
 
 This endpoint MUST accepts HTTP request using POST method.
 
@@ -62,28 +62,28 @@ Post endpoint MUST accept following request body in JSON format:
 
 Mandatory message body in BML-NG format.
 
-[Bouchots](../../standard/bouchot.md) SHOULD expect error invalid BML-NG, invalid encoding
- and generally shit posting from [moules](../../standard/moules.md).
+[Bouchots](../../01_standard/bouchot.md) SHOULD expect error invalid BML-NG, invalid encoding
+ and generally shit posting from [moules](../../01_standard/moules.md).
 
 ### from
 
-[Moule](../../standard/moules.md)'s nickname.
+[Moule](../../01_standard/moules.md)'s nickname.
 
 ### since
 
-Optional last known by [coincoin](../../standard/coincoin.md) post
-[norloge](../../standard/norloge.md) in **Full ISO** format.
+Optional last known by [coincoin](../../01_standard/coincoin.md) post
+[norloge](../../01_standard/norloge.md) in **Full ISO** format.
 
 ## Response
 
 ### Response body
 
-If *since* parameters is set, [Bouchots](../../standard/bouchot.md) SHOULD produce
+If *since* parameters is set, [Bouchots](../../01_standard/bouchot.md) SHOULD produce
 a JSON as response body with posts newer than *since*.
 
 # BML-NG
 
-Replace [standard BML](../../standard/standard_bml.md) with a well defined and KISS markup
+Replace [standard BML](../../01_standard/bml.md) with a well defined and KISS markup
 language.
 
 Goals:
@@ -100,7 +100,7 @@ with [COMMERCIAL AT](http://www.fileformat.info/info/unicode/char/0040/index.htm
 @Dave how are you?
 ```
 
-[Coincoins](../../standard/coincoin.md) SHOULD hail user when a [post](../../standard/post.md) is received with his bigorno.
+[Coincoins](../../01_standard/coincoin.md) SHOULD hail user when a [post](../../01_standard/post.md) is received with his bigorno.
 
 ## duck
 
@@ -116,11 +116,11 @@ Ducks can have the following character as head:
 oO0ô°øòó@
 ```
 
-[Coincoins](../../standard/coincoin.md) MAY use ducks in [hunt](../../standard/hunt.md).
+[Coincoins](../../01_standard/coincoin.md) MAY use ducks in [hunt](../../01_standard/hunt.md).
 
-## [norloge](../../standard/norloge.md)
+## [norloge](../../01_standard/norloge.md)
 
-[Coincoins](../../standard/coincoin.md) SHOULD use **Full ISO** norloges to display links or navigate between [posts](../../standard/post.md).
+[Coincoins](../../01_standard/coincoin.md) SHOULD use **Full ISO** norloges to display links or navigate between [posts](../../01_standard/post.md).
 
 **Only Full ISO** norloge MUST be used.
 
@@ -145,7 +145,7 @@ _underline_
 
 ```
 
-[Coincoins](../../standard/coincoin.md) SHOULD use these to format [posts](../../standard/post.md):
+[Coincoins](../../01_standard/coincoin.md) SHOULD use these to format [posts](../../01_standard/post.md):
 
 *emphasis*
 
@@ -157,7 +157,7 @@ _underline_
 
 `printf();`
 
-## [totoz](../../standard/totoz.md)
+## [totoz](../../01_standard/totoz.md)
 
 Reference a totoz name between /[:/ and /]/:
 
@@ -165,4 +165,4 @@ Reference a totoz name between /[:/ and /]/:
 [:good]
 ```
 
-[Coincoins](../../standard/coincoin.md) MAY display the referenced totoz image.
+[Coincoins](../../01_standard/coincoin.md) MAY display the referenced totoz image.
