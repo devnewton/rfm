@@ -12,10 +12,10 @@ Three kind of tribunes exist:
 
 ## Alive tribunes
 
-- [euromussels](https://b3.euromussels.eu/)
-- [devnewton](https://jb3.devnewton.fr/)
+- [euromussels](https://gb3.devnewton.fr/#euromussels)
+- [devnewton](https://gb3.devnewton.fr/)
 - [dlfp](https://linuxfr.org/board/)
-- [gabuzomeu](https://jb3.plop.cc/)
+- [gabuzomeu](https://gb3.plop.cc/)
 - [moules](https://moules.org/)
 - [sveetch](http://sveetch.net/tribune)
 

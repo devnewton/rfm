@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<site baseurl="https://jb3.devnewton.fr" name="jb3" title="jb3" version="666">
+<site baseurl="https://gb3.devnewton.fr" name="gb3" title="gb3" version="666">
     <board name="devnewton" title="devnewton"> 
-        <backend path="/legacy/xml?room=devnewton" public="true" refresh="10" tags_encoded="true" /> 
-        <post anonymous="true" max_length="512" method="post" path="/legacy/post?room=devnewton"> 
+        <backend path="/gb0/tsv" public="true" refresh="10" tags_encoded="false" /> 
+        <post anonymous="true" max_length="512" method="post" path="/gb0/post"> 
             <field name="message">$m</field>
         </post>
     </board>

@@ -4,7 +4,7 @@ XML backend must conform to [xml_backend.xsd](./xml_backend.xsd).
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<board site="https://jb3.devnewton.fr?room=cppfrug" timezone="Europe/Paris">
+<board site="https://taiste.localdomain" timezone="Europe/Paris">
     <post id="1496037685830" time="20170529080125">
         <info>dave</info>
         <message>je vous ai aussi mis sara, l'assistante de tribune à l'IA surpuissante!</message>
